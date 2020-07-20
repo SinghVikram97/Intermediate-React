@@ -1,3 +1,3 @@
-# Code and Notes for Intermediate-React-v2
+# Useful links
 
-## [Course link](https://frontendmasters.com/courses/intermediate-react-v2/)
+## [useEffect vs componentDidMount/componentDidUpdate](https://stackoverflow.com/questions/58765680/react-lifecycle-methods-synchronous-or-asynchronous)
