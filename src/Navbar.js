@@ -1,9 +1,15 @@
 import React, { useState } from "react";
 import { Link } from "@reach/router";
-import { css } from "@emotion/core";
+import { css, keyframes } from "@emotion/core";
 
 // You can have all your design themes and standards in one place
 import colors from "./colors";
+
+const spin = keyframes`
+ to{
+  transform:rotate(360deg)
+ }
+`;
 
 const Navbar = () => {
   const [padding, setPadding] = useState(15);
@@ -23,7 +29,11 @@ const Navbar = () => {
           /* & refers to the actual component itself */
           &:hover {
             text-decoration: underline;
+            animation: 1s ${spin} linear infinite reverse;
           }
+
+          display: inline-block;
+          animation: 1s ${spin} linear infinite;
         `}
         role="img"
         aria-label="logo"
