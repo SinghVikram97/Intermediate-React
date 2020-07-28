@@ -36,7 +36,7 @@
     "format": "prettier --write \"src/**/*.{js,jsx}\"",
     "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
     "comment": "Babel node not recommended for production use",
-    "start": "npm run build && babel-node server/index.js",
+    "start": "npm run build && babel-node server/index1.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Brian Holt <btholt+complete-intro-to-react@gmail.com>",
